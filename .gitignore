@@ -1,0 +1,62 @@
+# Diretórios do Airflow
+airflow/logs/
+airflow/plugins/
+airflow/airflow.db
+airflow/webserver_config.py
+
+
+# Ambiente Virtual
+venv/
+.env
+.envrc
+bin/
+__pycache__/
+*.egg-info/
+*.eggs/
+etc/
+lib/
+lib64/
+include/
+local/
+share/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.swp
+.ipynb_checkpoints/
+
+# Dados e Cache
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.cache
+/tmp/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Sistemas Operacionais
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs e Arquivos Temporários
+*.log
+*.sqlite
+*.pid
+*.pid.lock
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Testes e Coverage
+.coverage
+htmlcov/
+.pytest_cache/

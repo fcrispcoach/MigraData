@@ -1,0 +1,40 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "migration_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_row_count_to_be_between",
+      "kwargs": {
+        "min_value": 90,
+        "max_value": 110
+      },
+      "meta": {
+        "notes": "Valida se a tabela tem entre 90 e 110 linhas."
+      }
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "valor",
+        "min_value": 80,
+        "max_value": 120
+      },
+      "meta": {
+        "notes": "Valida se a média da coluna 'valor' está entre 80 e 120."
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "id"
+      },
+      "meta": {
+        "notes": "Garante que a coluna 'id' não tenha valores nulos."
+      }
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.50"
+  }
+}
