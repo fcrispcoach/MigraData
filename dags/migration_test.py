@@ -25,7 +25,7 @@ def validate_data(file_path, suite_name):
     
     df = pd.read_csv(file_path)
     
-    # 2. Configuração do Batch Request
+    
     batch_request = RuntimeBatchRequest(
         datasource_name="pandas_datasource",
         data_connector_name="default_runtime_data_connector",
